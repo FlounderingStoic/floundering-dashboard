@@ -1,0 +1,24 @@
+{
+  "name": "floundering-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node src/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlounderingStoic/floundering-dashboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FlounderingStoic/floundering-dashboard/issues"
+  },
+  "homepage": "https://github.com/FlounderingStoic/floundering-dashboard#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
