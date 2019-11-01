@@ -3,4 +3,4 @@ import express from 'express'
 const router = express.Router()
 module.exports = router
 
-router.use('/dailies',   require('./dailies'))
+router.use('/snapshots',   require('./snapshots'))
