@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "server": "node src/server",
+    "server": "babel-node src/server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,7 +18,15 @@
     "url": "https://github.com/FlounderingStoic/floundering-dashboard/issues"
   },
   "homepage": "https://github.com/FlounderingStoic/floundering-dashboard#readme",
-  "dependencies": {
-    "express": "^4.17.1"
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.6.4",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/register": "^7.6.2",
+    "babel-loader": "^8.0.6",
+    "express": "^4.17.1",
+    "sequelize": "^5.21.2"
   }
 }
