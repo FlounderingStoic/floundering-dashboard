@@ -1,6 +1,6 @@
 import Sequelize from 'sequelize'
 
-const database = require('../database')
+import database from '../database'
 
 const Snapshot = database.define('snapshot', {
   date: {

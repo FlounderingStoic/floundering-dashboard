@@ -7,6 +7,7 @@ const PORT = process.env.PORT || 8080
 const app = express();
 
 database.sync()
+// database.sync({force: true})
 
 app.use(bodyParser.json())
 app.use('/api', require('./api'))
