@@ -5,8 +5,8 @@ import { Expense, Snapshot } from '../../database/models'
 const router = express.Router()
 module.exports = router
 
-router.use('/:snapshotId/incomes', require('./incomes'))
 router.use('/:snapshotId/expenses', require('./expenses'))
+router.use('/:snapshotId/incomes', require('./incomes'))
 
 /**
  * @return snapshot with this id

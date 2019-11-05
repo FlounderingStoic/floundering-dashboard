@@ -5,6 +5,8 @@ import { Expense, Snapshot } from '../../database/models'
 const router = express.Router()
 module.exports = router
 
+// /api/snapshots/:snapshotId/expenses
+
 router.get('/', async (req, res, next) => {
   const { snapshotId } = req.params
   try {
